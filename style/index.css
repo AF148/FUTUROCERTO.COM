@@ -1,0 +1,126 @@
+:root{
+    --cor1: #120a8f;
+    --cor2: #add9f4;
+    --cor3: #ffca3a; 
+    --cor4: #ff6b6b;
+    --cor5: #040403;
+
+}
+
+
+img.imgtestevocacional{
+    width: 97vw;
+    height: 80vh;
+    object-fit: cover;
+    
+   
+    
+}
+
+section.artigos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95vw;
+    overflow-x: auto;
+
+    
+}
+
+div.artigo {
+    width: 22em;
+    display: inline-block;
+    text-align: justify;
+    margin: 10px;
+    padding: 0px 20px;
+    box-shadow: 2px 2px 5px 1px #0404034d;
+    border-radius: 5px;  
+}
+
+div.artigo > a{
+    text-decoration: none;
+    color: var(--cor5);
+    font-weight: bolder;
+    text-shadow: 1px 2px 5px #04040379;
+}
+
+div#artigo1{
+    border-color: var(--cor3);
+    border-style: solid;
+    border-width: 5px;
+}
+
+div#artigo2{
+    border-color: var(--cor4);
+    border-style: solid;
+    border-width: 5px;
+}
+
+div#artigo3{
+    border-color: var(--cor2);
+    border-style: solid;
+    border-width: 5px;
+}
+
+
+section.coletadeemail{
+    background-color: var(--cor5);
+    color: white;
+    padding: 5px;
+}
+
+
+section.ofertabolsa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95vw;
+    overflow-x: auto;
+
+    
+}
+
+div.ofertabolsa {
+    width: 40em;
+    display: inline-block;
+    text-align: justify;
+    margin: 10px;
+    padding: 10px 20px;
+    box-shadow: 2px 2px 5px 1px #0404034d;
+    border-radius: 5px;  
+
+    border-color: var(--cor1);
+    border-style: solid;
+    border-width: 5px;
+
+    text-decoration: none;
+    color: var(--cor5);
+    font-weight: bolder;
+    text-shadow: 1px 2px 5px #04040379;
+}
+
+
+div.depoimento {
+    width: 22em;
+    display: inline-block;
+    text-align: justify;
+    margin: 10px;
+    padding: 10px 20px;
+    box-shadow: 2px 2px 5px 1px #0404034d;
+    border-radius: 5px;  
+
+    border-color: var(--cor4);
+    border-style: solid;
+    border-width: 5px;
+}
+
+div.depoimento > a{
+    text-decoration: none;
+    color: var(--cor5);
+    font-weight: bolder;
+    text-shadow: 1px 2px 5px #04040379;
+}
+
+
+
+
