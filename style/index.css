@@ -79,7 +79,7 @@ div.artigo p{
 }
 
 section.coletadeemail{
-    background-color: var(--cor1);
+    background-color: #130a8fbb;
     color: white;
     padding: 5px;
     text-align: center;
@@ -124,33 +124,39 @@ input.email{
 
 
 
-section.ofertabolsa{
+.bloco-bolsas{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    width: 95vw;
-    overflow-x: auto;
-
+    margin: 30px auto 30px auto;
+    
     
 }
 
-div.ofertabolsa {
-    width: 40em;
+div.bolsas {
+    width: 22rem;
+    height: 12rem;
     display: inline-block;
-    text-align: justify;
     margin: 10px;
-    padding: 10px 20px;
-    box-shadow: 2px 2px 5px 1px #0404034d;
-    border-radius: 5px;  
+    padding: 0px 20px;
+    padding-bottom: 25px; 
+    text-align: center; 
+    
+}
 
-    border-color: var(--cor1);
-    border-style: solid;
-    border-width: 5px;
+div.bolsas h1{
+    font-weight: 400;
+}
 
-    text-decoration: none;
-    color: var(--cor5);
-    font-weight: bolder;
-    text-shadow: 1px 2px 5px #04040379;
+div.bolsas p{
+    font-weight: 100;
+}
+
+.icone-bolsa{
+    width: 2.5rem;
+    margin-top: 20px;
+    
+    
 }
 
 
