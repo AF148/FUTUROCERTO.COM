@@ -146,10 +146,12 @@ div.bolsas {
 
 div.bolsas h1{
     font-weight: 400;
+    margin: 0px
 }
 
 div.bolsas p{
     font-weight: 100;
+    margin: 5px;
 }
 
 .icone-bolsa{
