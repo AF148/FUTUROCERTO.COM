@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Luckiest+Guy&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Luckiest+Guy&family=Mooli&display=swap');
 
-/* font-family: 'Luckiest Guy', cursive;
+/* 
+font-family: 'Luckiest Guy', cursive;
 font-family: 'Gloria Hallelujah', cursive; 
+font-family: 'Mooli', sans-serif;
 */
 :root{
     --cor1: #120a8f;
@@ -11,6 +13,7 @@ font-family: 'Gloria Hallelujah', cursive;
     --cor5: #040403;
     --certo: 'Luckiest Guy', cursive;
     --futuro: 'Gloria Hallelujah', cursive;
+    --fonte-principal: 'Mooli', sans-serif;
 
 
 }
@@ -18,7 +21,7 @@ font-family: 'Gloria Hallelujah', cursive;
 body{
 margin: 0px;
 padding: 0px;
-font-family: Georgia, 'Times New Roman', Times, serif;
+font-family: var(--fonte-principal);
 }
 
 div.menu{

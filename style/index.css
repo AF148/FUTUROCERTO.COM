@@ -78,14 +78,50 @@ div.artigo p{
     
 }
 
-
-
-
 section.coletadeemail{
-    background-color: var(--cor5);
+    background-color: var(--cor1);
     color: white;
     padding: 5px;
+    text-align: center;
+    margin: 30px auto 30px auto;
+    padding-bottom: 30px;
 }
+section.coletadeemail h1{
+    font-size: 2.5rem;
+}
+section.coletadeemail p{
+    margin-top: -20px;
+    font-size: 1.3rem;
+}
+
+form.email{
+    margin-top: 20px;
+}
+button.email{
+    background-color: var(--cor5);
+    color: white;
+    padding: 10px 25px;
+    font-weight: bolder;
+    border-radius: 10px;
+    font-size: 1rem;
+
+}
+
+button.email:hover{
+    background-color: var(--cor3);
+    color: #040403;
+    transition: 0.5s;
+}
+
+input.email{
+    width: 20rem;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+
 
 
 section.ofertabolsa{
