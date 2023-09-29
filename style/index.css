@@ -6,12 +6,21 @@
     --cor5: #040403;
 
 }
+ 
+
+section.testevocacional{
+    display: flex;
+    justify-content: center;
+   
+    
+}
 
 
 img.imgtestevocacional{
-    width: 97vw;
+    width: 98vw;
     height: 80vh;
-   
+    display: block;
+
 }
 
 section.artigos{
@@ -21,7 +30,6 @@ section.artigos{
     width: 95vw;
     overflow-x: auto;
 
-    
 }
 
 div.artigo {
