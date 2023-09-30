@@ -123,7 +123,6 @@ input.email{
 
 
 
-
 .bloco-bolsas{
     display: flex;
     flex-wrap: wrap;
@@ -157,32 +156,66 @@ div.bolsas p{
 .icone-bolsa{
     width: 5rem;
     margin-top: 20px;
-    
-    
 }
 
 
-div.depoimento {
-    width: 22em;
-    display: inline-block;
-    text-align: justify;
-    margin: 10px;
-    padding: 10px 20px;
-    box-shadow: 2px 2px 5px 1px #0404034d;
-    border-radius: 5px;  
 
-    border-color: var(--cor4);
-    border-style: solid;
-    border-width: 5px;
-}
 
-div.depoimento > a{
-    text-decoration: none;
-    color: var(--cor5);
+section.ead h1.titulo{
+    text-align: center;
+    font-size: 2.5rem;
     font-weight: bolder;
-    text-shadow: 1px 2px 5px #04040379;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.bloco-ead{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
 }
 
+div.ead {
+   border-style: solid;
+   border-width: 0.5px;
+   width: 25rem;
+   margin-right: 20px;  
+}
 
+div.ead a{
+    text-decoration: none;
+    color: var(--cor1);
+}
 
+div.ead a:hover{
+    text-decoration: underline;
+    transition: 1s;
+}
 
+div.ead h1.titulodocurso{
+   padding: 10px;
+   text-align: center;
+   margin: 0;
+   margin-bottom: 30px;
+}
+
+div.preco{
+    margin-top: 50px;
+    margin-bottom: 20px;
+ 
+}
+
+h2.ead, h3.ead{
+    margin: 0;
+    text-align: center;
+ 
+}
+
+h3.ead{
+    font-size: 1rem;
+}
+
+.icone-ead{
+    width: 25rem;
+    
+}
