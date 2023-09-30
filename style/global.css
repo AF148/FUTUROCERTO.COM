@@ -75,4 +75,11 @@ footer{
     color: white;
     padding: 50px;
     margin-top: 20px;
+    text-align: center;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
 }
