@@ -73,15 +73,22 @@ a.botao:hover{
 
 footer{
     background-color: var(--cor5);
-    height: 30vh;
+    height: 40vh;
     color: white;
     padding: 50px;
     margin-top: 20px;
     text-align: center;
 }
 
-footer a{
+footer a.botao, a{
     color: white;
     text-decoration: none;
     padding: 10px;
+    
+}
+
+footer img{
+    margin: 0;
+    padding: 0;
+
 }

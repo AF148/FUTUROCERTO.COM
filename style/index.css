@@ -60,6 +60,7 @@ div.artigo {
     border-style: solid;
     border-width: 0.5px;
     padding-bottom: 25px;
+    text-align: justify;
   
      
 }
@@ -127,7 +128,8 @@ input.email{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 30px auto 30px auto;
+    margin: 30px auto 30px auto; 
+    text-align: justify;
     
     
 }
@@ -140,6 +142,7 @@ div.bolsas {
     padding: 0px 20px;
     padding-bottom: 25px; 
     text-align: center; 
+    text-align: justify;
     
 }
 
@@ -180,6 +183,7 @@ div.ead {
    border-width: 0.5px;
    width: 25rem;
    margin-right: 20px;  
+   background-color: white;
 
 }
 
