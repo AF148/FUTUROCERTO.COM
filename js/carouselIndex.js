@@ -21,7 +21,7 @@ function nextImage() {
 }
 
 function startCarousel() {
-  setInterval(nextImage, 4000); // Altere o valor em milissegundos para ajustar a velocidade da transição das imagens
+  setInterval(nextImage, 5000); // Altere o valor em milissegundos para ajustar a velocidade da transição das imagens
 }
 
 showImage(currentIndex);
