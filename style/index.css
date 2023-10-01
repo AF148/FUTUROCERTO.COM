@@ -6,8 +6,27 @@
     --cor5: #040403;
 
 }
- 
+ /* Carrossel */
+.carousel{
+    height: 500px;
+}
 
+.carousel img {
+    height: 500px;
+    width: 100%; 
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    object-fit: cover;
+    object-position: 50% 20%;
+    
+  }
+  
+  .carousel img.active {
+    opacity: 1;
+  }
+
+/* seção como banner teste vocacional */
 section.testevocacional{
     
     text-align: center;
@@ -79,6 +98,7 @@ div.artigo p{
     
 }
 
+/* coleta de e-mail */
 section.coletadeemail{
     background-color: #130a8fbb;
     color: white;
@@ -122,7 +142,7 @@ input.email{
 }
 
 
-
+/* oferta de bolsa */
 
 .bloco-bolsas{
     display: flex;
@@ -154,15 +174,13 @@ div.bolsas h1{
 div.bolsas p{
     font-weight: 100;
     margin: 5px;
+    
 }
 
 .icone-bolsa{
     width: 5rem;
     margin-top: 20px;
 }
-
-
-
 
 section.ead h1.titulo{
     text-align: center;
