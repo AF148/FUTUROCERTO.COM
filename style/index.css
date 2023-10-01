@@ -152,15 +152,25 @@ input.email{
 
 /* oferta de bolsa */
 
+h1#titulo-bolsa{
+    text-align: center;
+    font-size: 3rem;
+    color: var(--cor4);
+    
+}
+h1#titulo-bolsa:hover{
+    transition: 0.2s;
+    color: var(--cor5);
+}
+
 .bloco-bolsas{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: 30px auto 30px auto; 
     
-    
-    
 }
+
 
 div.bolsas {
     width: 22rem;
@@ -169,10 +179,18 @@ div.bolsas {
     margin: 10px;
     padding: 0px 20px;
     padding-bottom: 25px; 
-    text-align: center; 
-    
+    text-align: center;  
+}
+
+div.bolsas:hover{
+ 
+    color: white;
+    border-radius: 20px;
+    transition: 0.5s;
+    background-color: var(--cor5);
     
 }
+
 
 div.bolsas h1{
     font-weight: 400;
@@ -185,7 +203,7 @@ div.bolsas p{
     
 }
 
-.icone-bolsa{
+.icone-bolsa1, .icone-bolsa2, .icone-bolsa3{
     width: 5rem;
     margin-top: 20px;
 }
