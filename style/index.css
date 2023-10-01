@@ -6,19 +6,28 @@
     --cor5: #040403;
 
 }
+
+div.toposite{
+    background-color: var(--cor4);
+    height: 10px;
+    
+}
  /* Carrossel */
 .carousel{
     height: 500px;
+
 }
 
 .carousel img {
     height: 500px;
-    width: 100%; 
+    width: 99.85%; 
     position: absolute;
     opacity: 0;
     transition: opacity 1s ease-in-out;
     object-fit: cover;
     object-position: 50% 20%;
+    box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.219);
+    border-color: rgba(0, 0, 0, 0.514);
     
   }
   
@@ -28,7 +37,6 @@
 
 /* seção como banner teste vocacional */
 section.testevocacional{
-    
     text-align: center;
     background-color: var(--cor4);
     color: white;
